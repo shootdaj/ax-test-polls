@@ -47,6 +47,18 @@
       "title": "Voting & Results",
       "started_at": "2026-03-10T15:15:00Z",
       "completed_at": "2026-03-10T15:25:00Z"
+    },
+    {
+      "phase": 3,
+      "title": "Frontend UI",
+      "started_at": "2026-03-10T15:25:00Z",
+      "completed_at": "2026-03-10T15:35:00Z"
+    },
+    {
+      "phase": 4,
+      "title": "Discovery & Polish",
+      "started_at": "2026-03-10T15:35:00Z",
+      "completed_at": "2026-03-10T15:45:00Z"
     }
   ],
   "milestone_history": [],
