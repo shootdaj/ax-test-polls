@@ -1,0 +1,26 @@
+{
+  "name": "ax-test-polls",
+  "version": "1.0.0",
+  "description": "A Polling/Voting web application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test 'test/unit/**/*.test.js' 'test/integration/**/*.test.js' 'test/scenarios/**/*.test.js'",
+    "test:unit": "node --test 'test/unit/**/*.test.js'",
+    "test:integration": "node --test 'test/integration/**/*.test.js'",
+    "test:scenarios": "node --test 'test/scenarios/**/*.test.js'",
+    "lint": "echo 'No lint configured'"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.0",
+    "uuid": "^11.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
